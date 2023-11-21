@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Part 1. A Quick Review on the Classic Bias-variance Trade-off}{3}{0}{1}
+\beamer@sectionintoc {2}{Part 2. Introduction to Double Descent}{5}{0}{2}
+\beamer@sectionintoc {3}{Part 3. A Simple Experiment to See Double Descent}{7}{0}{3}
+\beamer@sectionintoc {4}{Part 4. Why Does This Matter?}{9}{0}{4}
+\beamer@sectionintoc {5}{Part 5. Plan for the Next}{10}{0}{5}
+\beamer@sectionintoc {6}{Part 6. References}{11}{0}{6}

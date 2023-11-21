@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+
+\bibitem{baldassi2021unveiling}
+Carlo Baldassi, Clarissa Lauditi, Enrico~M Malatesta, Gabriele Perugini, and
+  Riccardo Zecchina.
+\newblock Unveiling the structure of wide flat minima in neural networks.
+\newblock {\em Physical Review Letters}, 127(27):278301, 2021.
+
+\bibitem{belkin2019reconciling}
+Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal.
+\newblock Reconciling modern machine-learning practice and the classical
+  bias--variance trade-off.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  116(32):15849--15854, 2019.
+
+\bibitem{canatar2021spectral}
+Abdulkadir Canatar, Blake Bordelon, and Cengiz Pehlevan.
+\newblock Spectral bias and task-model alignment explain generalization in
+  kernel regression and infinitely wide neural networks.
+\newblock {\em Nature communications}, 12(1):2914, 2021.
+
+\bibitem{hastie2022surprises}
+Trevor Hastie, Andrea Montanari, Saharon Rosset, and Ryan~J Tibshirani.
+\newblock Surprises in high-dimensional ridgeless least squares interpolation.
+\newblock {\em Annals of statistics}, 50(2):949, 2022.
+
+\bibitem{nakkiran2019more}
+Preetum Nakkiran.
+\newblock More data can hurt for linear regression: Sample-wise double descent.
+\newblock {\em arXiv preprint arXiv:1912.07242}, 2019.
+
+\bibitem{nakkiran2021deep}
+Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, and Ilya
+  Sutskever.
+\newblock Deep double descent: Where bigger models and more data hurt.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2021(12):124003, 2021.
+
+\bibitem{tharwat2019parameter}
+Alaa Tharwat.
+\newblock Parameter investigation of support vector machine classifier with
+  kernel functions.
+\newblock {\em Knowledge and Information Systems}, 61:1269--1302, 2019.
+
+\end{thebibliography}
