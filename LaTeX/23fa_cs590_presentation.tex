@@ -28,6 +28,7 @@
 \floatstyle{plaintop}
 \restylefloat{table}
 \usepackage[edges]{forest}
+\usepackage{subfig}
 
 % Grey Box Hightlight
 \usepackage{tcolorbox}
@@ -357,31 +358,70 @@
 		\end{equation}
 		
 		\textbf{\small Results on synthetic data}
-		
+		\begin{figure}[H]
+			\centering
+			\subfloat
+			{{\includegraphics[width=5.5cm]{experiment_1.png} }}%
+			\qquad
+			\subfloat
+			{{\includegraphics[width=5.5cm]{experiment_2.png} }}%
+			\label{fig:4}
+		\end{figure}
 	\end{frame}
 
 	\section{Part 4. Why Does This Matter?}
 	\begin{frame}[t]
-		\frametitle{A Simple Experiment to See Double Descent}
+		\frametitle{Why Does This Matter?}
 		\scriptsize
-		\textbf{\small subtitle}
+		Since we have seen that double descent can take place even on linear regression learning tasks, it shouldn't be a big surprise to reproduce it in more complicated models such as DNN, kernel machines, and transformers. Now the question is: why does this matter? \\
+		
+		\vspace{1mm}
 		\begin{itemize}
 			\justifying
-			\item TODO
-			\item TODO
+			\item Theoratically justify the development of complicated models, as it suggests that increasing model complexity may not always be detrimental, and there can be a regime where larger models can perform better.
+			\item Double descent has spurred research into understanding the theoretical underpinnings of this phenomenon. It has led to new insights into the geometry of high-dimensional spaces and the optimization landscape of overparameterized models.
 		\end{itemize}
+	
+		\begin{figure}[H]
+			\centering
+			\subfloat
+			{{\includegraphics[width=5.5cm]{resnet_dd.png} }}%
+			\qquad
+			\subfloat
+			{{\includegraphics[width=5.5cm]{transfomer_dd.jpg} }}%
+			\captionof{figure}{Double descent on ResNet and Transformer (Source: Nakkiran et al. (2021) \cite{nakkiran2021deep})}
+			\label{fig:5}
+		\end{figure}
 	\end{frame}
 	
 	\section{Part 5. Plan for the Next}
 	\begin{frame}[t]
 		\frametitle{Part 5. Plan for the Next}
 		\scriptsize
-		\textbf{\small subtitle}
-		\begin{itemize}
-			\justifying
-			\item TODO
-			\item TODO
-		\end{itemize}
+		\textbf{\small Investigate model pruning technique in a wider landscape}\\
+		
+		\vspace{1mm}
+		Model pruning in neural networks involves removing certain connections or parameters from the network to make it smaller and more computationally efficient. Despite the reduction in size, effective pruning methods aim to retain or even improve the model's performance by preserving critical connections.
+		\vspace{-3mm}
+		\begin{figure}[H]
+			\centering
+			\subfloat
+			{{\includegraphics[width=5cm]{pruning.png} }}%
+			\qquad
+			\subfloat
+			{{\includegraphics[width=6cm]{pruned_accs.png} }}%
+			\label{fig:6}
+		\end{figure}
+	
+		\textbf{\small Build a better classifier for P300 brain-computer interface}
+		
+		\vspace{-3mm}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.55\linewidth]{p300_speller.png}
+			\vspace*{-3mm}
+			\label{fig:p300}
+		\end{figure}
 	\end{frame}
 	
 	\section{Part 6. References}
