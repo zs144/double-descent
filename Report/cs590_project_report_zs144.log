@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.21)  7 DEC 2023 23:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.21)  8 DEC 2023 10:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -526,7 +526,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 (./cs590_project_report_zs144.bbl) [4] (./cs590_project_report_zs144.aux)
 Package rerunfilecheck Info: File `cs590_project_report_zs144.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 0CA713344D4E2BCEA8A1B085BCA5CD7E;957.
+(rerunfilecheck)             Checksum: 2ED3D9852CA6AFF2520E65D1EDB62808;957.
  ) 
 Here is how much of TeX's memory you used:
  11692 strings out of 478994
@@ -551,7 +551,7 @@ ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/
 type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on cs590_project_report_zs144.pdf (4 pages, 155536 bytes).
+Output written on cs590_project_report_zs144.pdf (4 pages, 155539 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
