@@ -1,29 +1,113 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Kour and Saabne(2014{\natexlab{a}})]{kour2014real}
-George Kour and Raid Saabne.
-\newblock Real-time segmentation of on-line handwritten arabic script.
-\newblock In \emph{Frontiers in Handwriting Recognition (ICFHR), 2014 14th
-  International Conference on}, pages 417--422. IEEE, 2014{\natexlab{a}}.
+\bibitem[Nakkiran(2019)]{nakkiran2019more}
+Preetum Nakkiran.
+\newblock More data can hurt for linear regression: Sample-wise double descent.
+\newblock \emph{arXiv preprint arXiv:1912.07242}, 2019.
 
-\bibitem[Hadash et~al.(2018)Hadash, Kermany, Carmeli, Lavi, Kour, and
-  Jacovi]{hadash2018estimate}
-Guy Hadash, Einat Kermany, Boaz Carmeli, Ofer Lavi, George Kour, and Alon
-  Jacovi.
-\newblock Estimate and replace: A novel approach to integrating deep neural
-  networks with existing applications.
-\newblock \emph{arXiv preprint arXiv:1804.09028}, 2018.
+\bibitem[Hastie et~al.(2009)Hastie, Tibshirani, Friedman, and
+  Friedman]{hastie2009elements}
+Trevor Hastie, Robert Tibshirani, Jerome~H Friedman, and Jerome~H Friedman.
+\newblock \emph{The elements of statistical learning: data mining, inference,
+  and prediction}, volume~2.
+\newblock Springer, 2009.
 
-\bibitem[Kour and Saabne(2014{\natexlab{b}})]{kour2014fast}
-George Kour and Raid Saabne.
-\newblock Fast classification of handwritten on-line arabic characters.
-\newblock In \emph{Soft Computing and Pattern Recognition (SoCPaR), 2014 6th
-  International Conference of}, pages 312--318. IEEE, 2014{\natexlab{b}}.
-\newblock \doi{10.1109/SOCPAR.2014.7008025}.
+\bibitem[Neville and Jensen(2008)]{neville2008bias}
+Jennifer Neville and David Jensen.
+\newblock A bias/variance decomposition for models using collective inference.
+\newblock \emph{Machine Learning}, 73:\penalty0 87--106, 2008.
+
+\bibitem[Belkin et~al.(2019)Belkin, Hsu, Ma, and Mandal]{belkin2019reconciling}
+Mikhail Belkin, Daniel Hsu, Siyuan Ma, and Soumik Mandal.
+\newblock Reconciling modern machine-learning practice and the classical
+  bias--variance trade-off.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 116\penalty0
+  (32):\penalty0 15849--15854, 2019.
+
+\bibitem[Nakkiran et~al.(2021)Nakkiran, Kaplun, Bansal, Yang, Barak, and
+  Sutskever]{nakkiran2021deep}
+Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, and Ilya
+  Sutskever.
+\newblock Deep double descent: Where bigger models and more data hurt.
+\newblock \emph{Journal of Statistical Mechanics: Theory and Experiment},
+  2021\penalty0 (12):\penalty0 124003, 2021.
+
+\bibitem[Zhang et~al.(2021)Zhang, Bengio, Hardt, Recht, and
+  Vinyals]{zhang2021understanding}
+Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, and Oriol Vinyals.
+\newblock Understanding deep learning (still) requires rethinking
+  generalization.
+\newblock \emph{Communications of the ACM}, 64\penalty0 (3):\penalty0 107--115,
+  2021.
+
+\bibitem[Bartlett et~al.(2019)Bartlett, Long, Lugosi, and
+  Tsigler]{Bartlett_Long_Lugosi_Tsigler_2019}
+PeterL. Bartlett, PhilipM. Long, Gábor Lugosi, and Alexander Tsigler.
+\newblock Benign overfitting in linear regression.
+\newblock \emph{arXiv: Machine Learning,arXiv: Machine Learning}, Jun 2019.
+
+\bibitem[Muthukumar et~al.(2019)Muthukumar, Vodrahalli, Subramanian, and
+  Sahai]{Muthukumar_Vodrahalli_Subramanian_Sahai_2019}
+Vidya Muthukumar, Kailas Vodrahalli, Vignesh Subramanian, and Anant Sahai.
+\newblock Harmless interpolation of noisy data in regression.
+\newblock \emph{Cornell University - arXiv,Cornell University - arXiv}, Mar
+  2019.
+
+\bibitem[Mitra(2019)]{Mitra_2019}
+ParthaP. Mitra.
+\newblock Understanding overfitting peaks in generalization error: Analytical
+  risk curves for l 2 and l 1 penalized interpolation.
+\newblock \emph{arXiv: Learning,arXiv: Learning}, Jun 2019.
+
+\bibitem[Derezinski et~al.(2019)Derezinski, Liang, and
+  Mahoney]{Derezinski_Liang_Mahoney_2019}
+Michal Derezinski, FeynmanT. Liang, and MichaelW. Mahoney.
+\newblock Exact expressions for double descent and implicit regularization via
+  surrogate random design.
+\newblock \emph{Cornell University - arXiv,Cornell University - arXiv}, Dec
+  2019.
+
+\bibitem[Liang and Rakhlin(2020)]{Liang_Rakhlin_2020}
+Tengyuan Liang and Alexander Rakhlin.
+\newblock Just interpolate: Kernel “ridgeless” regression can generalize.
+\newblock \emph{The Annals of Statistics}, May 2020.
+\newblock \doi{10.1214/19-aos1849}.
+\newblock URL \url{http://dx.doi.org/10.1214/19-aos1849}.
+
+\bibitem[Mei and Montanari(2022)]{Mei_Montanari_2022}
+Song Mei and Andrea Montanari.
+\newblock The generalization error of random features regression: Precise
+  asymptotics and the double descent curve.
+\newblock \emph{Communications on Pure and Applied Mathematics}, page
+  667–766, Mar 2022.
+\newblock \doi{10.1002/cpa.22008}.
+\newblock URL \url{http://dx.doi.org/10.1002/cpa.22008}.
+
+\bibitem[d’Ascoli et~al.(2020)d’Ascoli, Refinetti, Biroli, and
+  Krzakala]{d2020double}
+St{\'e}phane d’Ascoli, Maria Refinetti, Giulio Biroli, and Florent Krzakala.
+\newblock Double trouble in double descent: Bias and variance (s) in the lazy
+  regime.
+\newblock In \emph{International Conference on Machine Learning}, pages
+  2280--2290. PMLR, 2020.
+
+\bibitem[Baldassi et~al.(2021)Baldassi, Lauditi, Malatesta, Perugini, and
+  Zecchina]{baldassi2021unveiling}
+Carlo Baldassi, Clarissa Lauditi, Enrico~M Malatesta, Gabriele Perugini, and
+  Riccardo Zecchina.
+\newblock Unveiling the structure of wide flat minima in neural networks.
+\newblock \emph{Physical Review Letters}, 127\penalty0 (27):\penalty0 278301,
+  2021.
+
+\bibitem[Hastie et~al.(2022)Hastie, Montanari, Rosset, and
+  Tibshirani]{hastie2022surprises}
+Trevor Hastie, Andrea Montanari, Saharon Rosset, and Ryan~J Tibshirani.
+\newblock Surprises in high-dimensional ridgeless least squares interpolation.
+\newblock \emph{Annals of statistics}, 50\penalty0 (2):\penalty0 949, 2022.
 
 \end{thebibliography}
